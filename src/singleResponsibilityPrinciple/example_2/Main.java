@@ -7,5 +7,9 @@ public class Main {
         FillOutTimesheet fillOutTimesheet = new FillOutTimesheet();
         fillOutTimesheet.fillOutTimesheet(employee);
         fillOutTimesheet.fillOutTimesheet(employee1);
+        EarnSalary earnSalary = new EarnSalary();
+        PaidSalary paidSalary = new PaidSalary();
+        earnSalary.earnSalary(employee);
+        paidSalary.paidSalary(employee, earnSalary);
     }
 }
